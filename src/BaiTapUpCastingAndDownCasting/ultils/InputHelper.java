@@ -1,4 +1,4 @@
-package BaiTapUpCastingAndDownCasting.Ultils;
+package BaiTapUpCastingAndDownCasting.ultils;
 
 import java.util.Scanner;
 

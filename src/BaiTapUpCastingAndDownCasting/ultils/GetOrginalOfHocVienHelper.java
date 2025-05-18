@@ -1,10 +1,10 @@
-package BaiTapUpCastingAndDownCasting.Ultils;
+package BaiTapUpCastingAndDownCasting.ultils;
 
-import BaiTapUpCastingAndDownCasting.Abstracts.HocVien;
-import BaiTapUpCastingAndDownCasting.Concretes.ChuyenVien;
-import BaiTapUpCastingAndDownCasting.Concretes.NhanVienQuanLy;
-import BaiTapUpCastingAndDownCasting.Concretes.NhanVienThuViec;
-import BaiTapUpCastingAndDownCasting.Concretes.SinhVien;
+import BaiTapUpCastingAndDownCasting.abstracts.HocVien;
+import BaiTapUpCastingAndDownCasting.concretes.ChuyenVien;
+import BaiTapUpCastingAndDownCasting.concretes.NhanVienQuanLy;
+import BaiTapUpCastingAndDownCasting.concretes.NhanVienThuViec;
+import BaiTapUpCastingAndDownCasting.concretes.SinhVien;
 
 public class GetOrginalOfHocVienHelper {
   public static HocVien getHocVienIdentity(int hocvienCode) {

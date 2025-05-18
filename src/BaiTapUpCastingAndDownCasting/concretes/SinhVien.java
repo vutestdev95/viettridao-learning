@@ -1,7 +1,7 @@
-package BaiTapUpCastingAndDownCasting.Concretes;
+package BaiTapUpCastingAndDownCasting.concretes;
 
-import BaiTapUpCastingAndDownCasting.Abstracts.HocVien;
-import BaiTapUpCastingAndDownCasting.Ultils.InputHelper;
+import BaiTapUpCastingAndDownCasting.abstracts.HocVien;
+import BaiTapUpCastingAndDownCasting.ultils.InputHelper;
 
 public class SinhVien extends HocVien {
   private String name;

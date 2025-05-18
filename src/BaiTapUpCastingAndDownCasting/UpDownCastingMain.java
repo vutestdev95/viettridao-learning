@@ -1,7 +1,7 @@
 package BaiTapUpCastingAndDownCasting;
 
-import BaiTapUpCastingAndDownCasting.Abstracts.HocVien;
-import BaiTapUpCastingAndDownCasting.Ultils.InfoProcessorHelper;
+import BaiTapUpCastingAndDownCasting.abstracts.HocVien;
+import BaiTapUpCastingAndDownCasting.ultils.InfoProcessorHelper;
 
 import java.util.ArrayList;
 

@@ -1,9 +1,9 @@
-package BaiTapUpCastingAndDownCasting.Concretes;
+package BaiTapUpCastingAndDownCasting.concretes;
 
-import BaiTapUpCastingAndDownCasting.Abstracts.NhanVienChinhThuc;
-import BaiTapUpCastingAndDownCasting.Ultils.InputHelper;
+import BaiTapUpCastingAndDownCasting.abstracts.NhanVienChinhThuc;
+import BaiTapUpCastingAndDownCasting.ultils.InputHelper;
 
-public class ChuyenVien extends NhanVienChinhThuc {
+public class NhanVienQuanLy extends NhanVienChinhThuc {
   private String name;
   private int age;
   private String country;

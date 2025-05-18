@@ -1,9 +1,9 @@
-package BaiTapUpCastingAndDownCasting.Concretes;
+package BaiTapUpCastingAndDownCasting.concretes;
 
-import BaiTapUpCastingAndDownCasting.Abstracts.NhanVienChinhThuc;
-import BaiTapUpCastingAndDownCasting.Ultils.InputHelper;
+import BaiTapUpCastingAndDownCasting.abstracts.HocVien;
+import BaiTapUpCastingAndDownCasting.ultils.InputHelper;
 
-public class NhanVienQuanLy extends NhanVienChinhThuc {
+public class NhanVienThuViec extends HocVien {
   private String name;
   private int age;
   private String country;
@@ -21,4 +21,5 @@ public class NhanVienQuanLy extends NhanVienChinhThuc {
     System.out.println("Tuổi: " + this.age);
     System.out.println("Quốc gia: " + this.country);
   }
+  
 }

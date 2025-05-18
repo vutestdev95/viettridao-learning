@@ -1,6 +1,6 @@
-package BaiTapUpCastingAndDownCasting.Ultils;
+package BaiTapUpCastingAndDownCasting.ultils;
 
-import BaiTapUpCastingAndDownCasting.Abstracts.HocVien;
+import BaiTapUpCastingAndDownCasting.abstracts.HocVien;
 
 import java.util.ArrayList;
 
