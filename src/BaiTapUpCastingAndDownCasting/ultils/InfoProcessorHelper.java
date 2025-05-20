@@ -2,24 +2,22 @@ package BaiTapUpCastingAndDownCasting.ultils;
 
 import BaiTapUpCastingAndDownCasting.abstracts.HocVien;
 
-import java.util.ArrayList;
-
 public class InfoProcessorHelper {
-  public static ArrayList<HocVien> getInfo(int numberOfHocViens) {
-    ArrayList<HocVien> hocVienList = new ArrayList<>(numberOfHocViens);
+  public static HocVien[] getInfo(int numberOfHocViens) {
+    HocVien[] hocVienList = new HocVien[numberOfHocViens];
     
     for(int i = 0; i < numberOfHocViens; i++) {
       int typeOfHocVienCode = InputHelper.inputTypeOfHocVien(i);
       HocVien hocVien = GetOrginalOfHocVienHelper.getHocVienIdentity(typeOfHocVienCode);
       GetOrginalOfHocVienHelper.logMessageByHocVienIdentity(hocVien, true);
       hocVien.addInfo();
-      hocVienList.add(hocVien);
+      hocVienList[i] = hocVien;
     }
     
     return hocVienList;
   }
   
-  public static void exportInfo(ArrayList<HocVien> hocVienList) {
+  public static void exportInfo(HocVien[] hocVienList) {
     for(HocVien hocVien : hocVienList) {
       GetOrginalOfHocVienHelper.logMessageByHocVienIdentity(hocVien, false);
       hocVien.showInfo();
