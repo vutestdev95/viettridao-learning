@@ -1,14 +1,19 @@
 package OOP4.models.nhaCuaChaVaChu;
 
 import OOP4.interfaces.NguoiChanNuoi;
+import OOP4.models.MucRuoi;
 import OOP4.models.nhaCuaOngNoi.OngNoi;
 
 public class NguoiCha extends OngNoi implements NguoiChanNuoi {
+  protected MucRuoi mucRuoiBenPhai;
+  
   public NguoiCha() {
+    mucRuoiBenPhai = new MucRuoi();
   }
   
   public NguoiCha(String hoVaTen, String namSinh, String gioiTinh, String hoVaTenCha) {
     super(hoVaTen, namSinh, gioiTinh, hoVaTenCha);
+    mucRuoiBenPhai = new MucRuoi();
   }
   
   @Override
