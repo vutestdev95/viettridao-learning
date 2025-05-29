@@ -22,17 +22,17 @@ public class ChoPhap extends Cho implements ChoAnXuong, ChoAnPate, ChoSan {
   @Override
   //Overload phương thức anThucAn với tham số là hộp pate
   public void anThucAn(HopPate hopPate) {
-    System.out.println("Con chó Pháp tên: " + this.getTen() + " Đang ăn hộp pate có nguồn gốc: " + hopPate.getNguonGoc());
+    System.out.println("Con chó Pháp tên: " + this.getTen() + " đang ăn hộp pate có nguồn gốc: " + hopPate.getNguonGoc());
   }
   
   @Override
   //Overload phương thức anThucAn với tham số là cục xương
   public void anThucAn(CucXuong cucXuong) {
-    System.out.println("Con chó Pháp tên: " + this.getTen() + " Đang ăn cục xương có nguồn gốc: " + cucXuong.getNguonGoc());
+    System.out.println("Con chó Pháp tên: " + this.getTen() + " đang ăn cục xương có nguồn gốc: " + cucXuong.getNguonGoc());
   }
   
   @Override
   public void danhHoiTimToiPham() {
-    System.out.println("Con chó Pháp tên: " + this.getTen() + " Đang đánh hơi tìm tội pham");
+    System.out.println("Con chó Pháp tên: " + this.getTen() + " đang đánh hơi tìm tội pham");
   }
 }

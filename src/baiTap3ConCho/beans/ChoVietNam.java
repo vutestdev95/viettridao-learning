@@ -21,17 +21,17 @@ public class ChoVietNam extends Cho implements ChoAnXuong, ChoAnShit, ChoSan {
   @Override
   //Overload phương thức anThucAn với tham số là cuc xương
   public void anThucAn(CucXuong cucXuong) {
-    System.out.println("Con chó Việt Nam tên: " + this.getTen() + " Đang ăn cục xương có nguồn gốc: " + cucXuong.getNguonGoc());
+    System.out.println("Con chó Việt Nam tên: " + this.getTen() + " đang ăn cục xương có nguồn gốc: " + cucXuong.getNguonGoc());
   }
   
   @Override
   //Overload phương thức anThucAn với tham số là cuc shit
   public void anThucAn(Shit shit) {
-    System.out.println("Con chó Việt Nam tên: " + this.getTen() + " Đang ăn cục shit có màu: " + shit.getMauSac());
+    System.out.println("Con chó Việt Nam tên: " + this.getTen() + " đang ăn cục shit có màu: " + shit.getMauSac());
   }
   
   @Override
   public void danhHoiTimToiPham() {
-    System.out.println("Con chó Việt Nam tên: " + this.getTen() + " Đang đánh hơi tìm tội pham");
+    System.out.println("Con chó Việt Nam tên: " + this.getTen() + " đang đánh hơi tìm tội pham");
   }
 }
